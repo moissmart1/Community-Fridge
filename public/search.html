@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Search for Items</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+  <link rel="stylesheet" href="/css/comm-fridge.css" />
+</head>
+
+<body id="search_fridges">
+  <menu>
+    <a href="/index.html"><i class="fas fa-bars"></i></a>
+  </menu>
+    <section>
+      <div id="respArea" class="hidden">Message</div>
+        <h1>Search for Items</h1>
+          <form>
+            <label for="type">Item Type:</label>
+            <input type="text" id="type" name="type"><br><br>
+            <label for="Name">Item Name :</label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" disabled="true" id="btnSubmit" value="Submit"/>
+          </form>
+    </section>
+    <section id="view_results" class="hidden">
+        <h2>Available fridges</h2>
+      </section>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/comm-fridge.js"></script>
+</body>
+</html>
